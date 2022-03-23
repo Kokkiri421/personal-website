@@ -35,13 +35,13 @@ function App() {
             <Link to="/about">About</Link>
             <Link to="/skills">Skills</Link>
             <Link to="/">Home</Link>
-            <Routes>
-              <Route path="/about" element={<div>skills</div>} />
-              <Route path="/skills" element={<div>skills</div>} />
-              <Route path="/" element={<MainPage />} />
-            </Routes>
           </div>
         </Router>
+        <Routes>
+          <Route path="/about" element={<div>skills</div>} />
+          <Route path="/skills" element={<div>skills</div>} />
+          <Route path="/" element={<MainPage />} />
+        </Routes>
       </Background>
     </>
   );
